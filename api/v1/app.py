@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """Create api end point"""
 
-from flask import Flask
 from models import storage
+from flask import Flask
 from api.v1.views import app_views
 from os import environ
 app = Flask(__name__)
